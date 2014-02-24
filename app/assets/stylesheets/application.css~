@@ -33,6 +33,9 @@ h1.title {
   font-size: 2em;
   font-style: normal;
 }
+table#movies th.hilite a:visited{
+  background-color: yellow;
+}
 table#movies {
   margin: 10px;
   border-collapse: collapse;
@@ -48,11 +51,6 @@ table#movies th, table#movies td {
   padding: 4px;
   text-align: left;
 }
-table#movies th.hilite {
-  background-color: yellow;
-}
-
-
 #notice #warning {
   background: rosybrown;
   margin: 1em 0;
